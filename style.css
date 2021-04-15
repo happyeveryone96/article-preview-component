@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    margin: 35vh 27.5vw;
+    width: 45vw;
+    height: 30vh;
+    background-color: white;
+    background-image: url('./images/drawers.jpg');
+    background-size: 20vw 30vh;
+    background-repeat: no-repeat;
+    line-height: 23px;
+}
+
+#content {
+    align-items: center;
+    padding: 10px;
+    margin-left: 23vw;
+    width: 20vw;
+}
+
+#main-content {
+    font-size: 13px;
+}
+
+#bottom {
+    display: flex;
+    font-size: 13px;
+    width: 20vw;
+}
+
+#bottom-img {
+    width: 3vw;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#share {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: hsl(210, 46%, 95%);
+    margin: auto;
+}
+
+#share-img {
+    width: 20px;
+}
+
+.attribution,
+#mobile-share {
+    display: none;
+}
