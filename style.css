@@ -105,3 +105,72 @@ button {
 .attribution {
     display: none;
 }
+
+@media (max-width: 500px) {
+    #container {
+        display: block;
+        width: 80vw;
+        height: 74vh;
+        margin: 13vh 10vw;
+        background-image: url('./images/drawers.jpg');
+        background-size: 80vw 40vh;
+        background-repeat: no-repeat;
+    }
+    #content {
+        position: relative;
+        display: block;
+        width: 70vw;
+        padding: 0;
+        margin: 20px;
+        top:45vh;
+    }
+    #main-content {
+        width: 70vw;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    #bottom {
+        width: 70vw;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    #bottom-img {
+        width: 10vw;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    #share-click {
+        display: none;
+        position: relative;
+        bottom: 67px;
+        right:289px;
+        background-color: hsl(217, 19%, 35%);
+        width: 76vw;
+        height: 5vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        z-index: 1;
+    }
+    #share-click::after {
+        display: none;
+    }
+    #share-button {
+        position: relative;
+        z-index: 2;
+    }
+    #social {
+        display: flex;
+        position: relative;
+        right: 200px;
+    }
+    #social > img {
+        width: 20px;
+    }
+    #share-text {
+        position: relative;
+        right: 100px;
+    }
+}
